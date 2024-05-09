@@ -10,6 +10,7 @@ git clone https://github.com/h0x32/Aroma.git
 cd Aroma
 python -m venv .env
 source .env/bin/activate
+pip install -r requirements.txt
 python __main__.py
 ```
 
