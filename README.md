@@ -1,9 +1,19 @@
   ## Introduction
 
-A small software that manages different Wine-based or gaming-related projects on any Linux distro    
+A small software that manages different Wine-based or gaming-related projects on any Linux distro
 
 
+# How to build/run from source
 
+```
+git clone https://github.com/h0x32/Aroma.git
+cd Aroma
+python -m venv .env
+source .env/bin/activate
+python __main__.py
+```
+
+###### Note: only works in bash due to output nature
 
 
 ## How to use
